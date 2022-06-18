@@ -2,12 +2,12 @@
 <html lang="en">
   <head>
     <meta charset="utf-8" />
-    <title>PPDB AL AMIN</title>
+    <title>PPDB AL AMIN | AUTH</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta content="Premium Multipurpose Admin & Dashboard Template" name="description" />
-    <meta content="Themesbrand" name="author" />
+    <meta content="Auth PPDB Al Amin Puloerang" name="description" />
+    <meta content="PPDB Al Amin" name="author" />
     <!-- App favicon -->
-    <link rel="shortcut icon" href="/assets/images/favicon.ico">
+    <link rel="shortcut icon" href="/images/logo.png">
 
     <!-- owl.carousel css -->
     <link rel="stylesheet" href="/assets/libs/owl.carousel/assets/owl.carousel.min.css">
@@ -39,17 +39,17 @@
                                 <div class="col-lg-7">
                                     <div class="text-center">
                                         
-                                        <h4 class="mb-3"><i class="bx bxs-quote-alt-left text-primary h1 align-middle me-3"></i><span class="text-primary">5k</span>+ Satisfied clients</h4>
+                                        <h4 class="mb-3"><i class="bx bxs-quote-alt-left text-primary h1 align-middle me-3"></i><span class="text-primary">Quote</span> of Salihin</h4>
                                         
                                         <div dir="ltr">
                                             <div class="owl-carousel owl-theme auth-review-carousel" id="auth-review-carousel">
                                                 <div class="item">
                                                     <div class="py-3">
-                                                        <p class="font-size-16 mb-4">" Fantastic theme with a ton of options. If you just want the HTML to integrate with your project, then this is the package. You can find the files in the 'dist' folder...no need to install git and all the other stuff the documentation talks about. "</p>
+                                                        <p class="font-size-16 mb-4">" Jika engkau bertakwa kepada Allah, maka engkau tidak butuh kepada manusia. Sedang apabila engkau takut kepada manusia, mereka tidak dapat memenuhi kebutuhanmu kepada Allah sedikit pun. "</p>
 
                                                         <div>
-                                                            <h4 class="font-size-16 text-primary">Abs1981</h4>
-                                                            <p class="font-size-14 mb-0">- Skote User</p>
+                                                            <h4 class="font-size-16 text-primary">Baz Kitab</h4>
+                                                            <p class="font-size-14 mb-0">- Sufyan Ats-Tsauri</p>
                                                         </div>
                                                     </div>
                                                     
@@ -57,11 +57,11 @@
 
                                                 <div class="item">
                                                     <div class="py-3">
-                                                        <p class="font-size-16 mb-4">" If Every Vendor on Envato are as supportive as Themesbrand, Development with be a nice experience. You guys are Wonderful. Keep us the good work. "</p>
+                                                        <p class="font-size-16 mb-4">" Belajarlah Alquran, niscaya kamu tertuntun ke jalan yang benar, dan berbuatlah kebajikan sesuai dengan Alquran, niscaya kamu menjadi ahlinya. "</p>
 
                                                         <div>
-                                                            <h4 class="font-size-16 text-primary">nezerious</h4>
-                                                            <p class="font-size-14 mb-0">- Skote User</p>
+                                                            <h4 class="font-size-16 text-primary">Baz Kitab</h4>
+                                                            <p class="font-size-14 mb-0">- Umar bin Khattab</p>
                                                         </div>
                                                     </div>
                                                     
@@ -83,12 +83,16 @@
               <div class="w-100">
 
                 <div class="d-flex flex-column h-100">
-                  <div class="mb-4 mb-md-5">
-                      <a href="index.html" class="d-block auth-logo">
-                          <img src="/assets/images/logo-dark.png" alt="" height="18" class="auth-logo-dark">
-                          <img src="/assets/images/logo-light.png" alt="" height="18" class="auth-logo-light">
-                      </a>
-                  </div>
+                    <div class="mb-4 mb-md-5">
+                        <a href="/administrator" class="d-flex gap-2 auth-logo">
+                            <img src="/images/logo.png" alt="" height="48">
+                          
+                            <div class="mt-2">
+                                <h6 class="text-dark mb-0 text-uppercase">Madrasah Al Amin Puloerang</h6>
+                                <p class="text-dark mt-0 text-uppercase">Lakbok - Ciamis - Jawa Barat</p>
+                            </div>
+                        </a>
+                    </div>
                   <div class="my-auto">
                       <div>
                           <h5 class="text-primary">Welcome Back !</h5>
