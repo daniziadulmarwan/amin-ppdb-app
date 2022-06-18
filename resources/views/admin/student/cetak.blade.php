@@ -290,7 +290,7 @@
 
       <footer style="margin-top: -5px;">
         <div class="box-lg text-center">
-          <p class="text-uppercase fw-semibold">PPDB MA Al Amin Puloerang 2022/2023</p>
+          <p class="text-uppercase fw-semibold">PPDB {{ $data->jenjang == '1' ? 'MA' : 'MTs' }} Al Amin Puloerang 2022/2023</p>
         </div>
         <p style="font-size: 9px;text-transform: uppercase;">Registration Number : {{ $data->reg_number }}</p>
       </footer>
