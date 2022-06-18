@@ -93,12 +93,7 @@
 
                                             <div class="row g-3 mt-2">
                                                 <div class="col">
-                                                    {{-- <input id="startYear" class="form-control date-picker-year @error('tahun_lulus') is-invalid @enderror" placeholder="Lulusan Tahun" name="tahun_lulus" value="{{ old('tahun_lulus') }}" autocomplete="off">
-                                                    @error('tahun_lulus')
-                                                    <div class="invalid-feedback">
-                                                        {{ $message }}
-                                                    </div>
-                                                    @enderror --}}
+                                                   
                                                 </div>
         
                                                 <div class="col d-none" id="pilihanKelas">
@@ -736,6 +731,8 @@
             let value = $('#jenisPendaftaran').val()
             if(value == 2) {
                 $('#pilihanKelas').removeClass('d-none');
+            } else if(value == 1) {
+                $('#pilihanKelas').addClass('d-none');
             }
         });
     </script>
