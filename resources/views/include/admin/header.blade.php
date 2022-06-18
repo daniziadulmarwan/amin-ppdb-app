@@ -1,12 +1,12 @@
 <head>
   <meta charset="utf-8" />
-  <title>AL AMIN PPDB | ADMINISTRATOR</title>
+  <title>PPDB AL AMIN | ADMIN</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta content="Penerimaan Peserta Didik Baru" name="description" />
   <meta content="Al Amin Puloerang" name="Zeiteim Tech" />
   <meta name="csrf-token" content="{{ csrf_token() }}">
   <!-- App favicon -->
-  <link rel="shortcut icon" href="/assets/images/favicon.ico">
+  <link rel="shortcut icon" href="/images/logo.png">
 
   <!-- Bootstrap Css -->
   <link href="/assets/css/bootstrap.min.css" id="bootstrap-style" rel="stylesheet" type="text/css" />
