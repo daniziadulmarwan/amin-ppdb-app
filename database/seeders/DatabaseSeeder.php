@@ -28,7 +28,7 @@ class DatabaseSeeder extends Seeder
 
         SettingTime::create(['waktu' => 1]);
 
-        // Pendaftaran::factory(10)->create();
+        Pendaftaran::factory(10)->create();
 
         // User::create([
         //     'name' => 'Imam Turmudi',

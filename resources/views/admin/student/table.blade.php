@@ -54,7 +54,7 @@
                                         <form action="/admin/student/{{ $item->id }}" method="post">
                                             @csrf
                                             @method('delete')
-                                            <button onclick="return confirm('Want to delete this data?')" type="submit" class="text-danger font-size-20" style="outline: none; border: none;background:none;margin: 0px;padding: 0px"><i class='bx bx-trash'></i></button>
+                                            <button onclick="return confirm('Do you want to delete this data?')" type="submit" class="text-danger font-size-20" style="outline: none; border: none;background:none;margin: 0px;padding: 0px"><i class='bx bx-trash'></i></button>
                                         </form>
                                         <a href="javascript:void(0)" class="text-primary font-size-20 status-btn" data-bs-toggle="modal" data-id="{{ $item->id }}" data-bs-target="#statusModal"><i class='bx bx-check-square'></i></a>
                                     </td>

@@ -197,7 +197,34 @@
 
       </div>
     </div>
-  @include('admin.setting.account_modal')
+    @include('admin.setting.account_modal')
   </div>
 </div>
 @endsection
+
+
+@push('scriptAdmin')
+    <script>
+        $("#bluetooth").on("change", function (e) {
+            if (e.target.checked) {
+                fetch("/admin/setting/time?waktu=" + 0)
+                    .then((res) => res.json())
+                    .then((data) => {
+                        if (data.status == "success") {
+                            alert("Success open registration");
+                        }
+                    })
+                    .catch((err) => console.log(err));
+            } else {
+                fetch("/admin/setting/time?waktu=" + 1)
+                    .then((res) => res.json())
+                    .then((data) => {
+                        if (data.status == "success") {
+                            alert("Success close registration");
+                        }
+                    })
+                    .catch((err) => console.log(err));
+            }
+        });
+    </script>
+@endpush
