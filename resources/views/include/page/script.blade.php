@@ -12,6 +12,9 @@
  <!-- jquery step -->
  <script src="/assets/libs/jquery-steps/build/jquery.steps.min.js"></script>
 
+  <!-- ICO landing init -->
+  <script src="/assets/js/pages/ico-landing.init.js"></script>
+
  <!-- form wizard init -->
  <script src="/assets/js/pages/form-wizard.init.js"></script>
 <script src="/assets/js/pages/coming-soon.init.js"></script>

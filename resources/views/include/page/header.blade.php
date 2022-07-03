@@ -17,8 +17,25 @@
   <link href="/assets/css/icons.min.css" rel="stylesheet" type="text/css" />
   <!-- App Css-->
   <link href="/assets/css/app.min.css" id="app-style" rel="stylesheet" type="text/css" />
-  
-  {{-- TODO::Crips Chat --}}
-  <script type="text/javascript">window.$crisp=[];window.CRISP_WEBSITE_ID="bd5cfc2e-e839-47da-8b75-75f7f664ee7f";(function(){d=document;s=d.createElement("script");s.src="https://client.crisp.chat/l.js";s.async=1;d.getElementsByTagName("head")[0].appendChild(s);})();</script>
+
+  <style>
+    .btn-chat {
+      width: 60px; 
+      height: 60px;
+      position: fixed;
+      bottom: 20px;
+      right: 20px;
+      border-radius: 50%;
+      display: grid;
+      place-content: center;
+      cursor: pointer;
+    }
+    .btn-chat .img-chat {
+      background-image: url('/images/messages.png');
+      background-size: cover;
+      width: 60px;
+      height: 60px;
+    }
+  </style>
 
 </head>

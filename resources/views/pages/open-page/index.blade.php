@@ -5,10 +5,10 @@
               <div class="home-wrapper">
                     <div class="mb-5 d-flex flex-column align-items-center">
                         <a href="/" class="d-block auth-logo text-center">
-                            <img src="/images/logo.png" alt="wwfr" height="70">
-                            <h3 class="text-uppercase text-dark mb-0">Form Pendaftaran Peserta Didik Baru</h3>
-                            <h4 class="text-uppercase text-dark mb-0">Madrasah Al Amin Puloerang</h4>
-                            <h6 class="text-uppercase text-dark">Lakbok - Ciamis - Jawa Barat</h6>
+                            <img src="/images/logo.png" alt="wwfr" height="80">
+                            <h3 class="text-uppercase mt-2 mb-0 text-white">Form Pendaftaran Peserta Didik Baru</h3>
+                            <h4 class="text-uppercase mb-0 text-white">Madrasah Al Amin Puloerang</h4>
+                            <h6 class="text-uppercase text-white">Lakbok - Ciamis - Jawa Barat</h6>
                         </a>
                     </div>
 
