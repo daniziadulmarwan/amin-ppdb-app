@@ -31,7 +31,7 @@
       cursor: pointer;
     }
     .btn-chat .img-chat {
-      background-image: url('/images/messages.png');
+      background-image: url('/images/whatsappz.png');
       background-size: cover;
       width: 60px;
       height: 60px;
