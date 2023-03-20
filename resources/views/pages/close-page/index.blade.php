@@ -1,8 +1,8 @@
 <div class="my-5 pt-sm-5">
-  <div class="container">
-      <div class="row">
-          <div class="col-lg-12">
-              <div class="text-center">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12">
+                <div class="text-center">
                     <a href="/" class="d-block auth-logo">
                         <img src="/images/logo.png" alt="alamin-logo" width="300">
                     </a>
@@ -18,13 +18,13 @@
                     <p class="mt-0 mb-0 text-white">Cek di website official kami untuk berita terbaru</p>
                     <a href="https://alaminpuloerang.sch.id" target="_blank" class="text-white mt-0 text-underline" style="font-size: 14px; text-decoration: underline !important;">alaminpuloerang.sch.id</a>
 
-                  {{-- <div class="row justify-content-center mt-5">
+                    {{-- <div class="row justify-content-center mt-5">
                       <div class="col-md-8">
                           <div data-countdown="2022/06/19" class="counter-number"></div>
                       </div>
                   </div> --}}
-              </div>
-          </div>
-      </div>
-  </div>
+                </div>
+            </div>
+        </div>
+    </div>
 </div>
