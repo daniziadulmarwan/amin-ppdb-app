@@ -165,7 +165,7 @@
                                         <div class="row g-3 mb-3">
                                             <div class="col">
                                                 <select class="form-select @error('gender') is-invalid @enderror" name="gender">
-                                                    <option selected>Jenis Kelamin</option>
+                                                    <option hidden selected>Jenis Kelamin</option>
                                                     <option value="1" @if (old('gender')==1) selected @endif>Laki-laki</option>
                                                     <option value="2" @if (old('gender')==2) selected @endif>Perempuan</option>
                                                 </select>
@@ -202,7 +202,7 @@
                                         <div class="row g-3 mb-3">
                                             <div class="col">
                                                 <select class="form-select @error('status_keluarga') is-invalid @enderror" name="agama">
-                                                    <option selected>Agama</option>
+                                                    <option hidden selected>Agama</option>
                                                     <option value="1" @if (old('agama')==1) selected @endif>Islam</option>
                                                     <option value="2" @if (old('agama')==2) selected @endif>Kristen</option>
                                                     <option value="3" @if (old('agama')==3) selected @endif>Katolik</option>
@@ -222,7 +222,7 @@
                                         <div class="row g-3 mb-3">
                                             <div class="col">
                                                 <select class="form-select @error('status_keluarga') is-invalid @enderror" name="status_keluarga">
-                                                    <option selected>Status Dalam Keluarga</option>
+                                                    <option hidden selected>Status Dalam Keluarga</option>
                                                     <option value="1" @if (old('status_keluarga')==1) selected @endif>Anak Kandung</option>
                                                     <option value="2" @if (old('status_keluarga')==2) selected @endif>Anak Tiri</option>
                                                     <option value="3" @if (old('status_keluarga')==3) selected @endif>Kerabat</option>
@@ -262,7 +262,7 @@
                                         <div class="row g-3 mb-3">
                                             <div class="col">
                                                 <select class="form-select @error('hobi') is-invalid @enderror" name="hobi">
-                                                    <option selected>Hobi</option>
+                                                    <option hidden selected>Hobi</option>
                                                     <option value="1" @if (old('hobi')==1) selected @endif>Olahraga</option>
                                                     <option value="2" @if (old('hobi')==2) selected @endif>Kesenian</option>
                                                     <option value="3" @if (old('hobi')==3) selected @endif>Membaca</option>
@@ -281,7 +281,7 @@
                                         <div class="row g-3 mb-3">
                                             <div class="col">
                                                 <select class="form-select @error('cita_cita') is-invalid @enderror" name="cita_cita">
-                                                    <option selected>Cita-cita</option>
+                                                    <option hidden selected>Cita-cita</option>
                                                     <option value="1" @if (old('cita_cita')==1) selected @endif>PNS</option>
                                                     <option value="2" @if (old('cita_cita')==2) selected @endif>TNI/Polri</option>
                                                     <option value="3" @if (old('cita_cita')==3) selected @endif>Guru/Dosen</option>
@@ -491,7 +491,7 @@
                                         <div class="row g-3 mb-3">
                                             <div class="col">
                                                 <select class="form-select @error('pekerjaan_ayah') is-invalid @enderror" name="pekerjaan_ayah">
-                                                    <option value="" selected>Pekerjaan Ayah</option>
+                                                    <option hidden selected>Pekerjaan Ayah</option>
                                                     <option value="1" @if (old('pekerjaan_ayah')==1) selected @endif>Tidak Bekerja</option>
                                                     <option value="2" @if (old('pekerjaan_ayah')==2) selected @endif>Buruh(Tani,Pabrik,Bangunan)</option>
                                                     <option value="3" @if (old('pekerjaan_ayah')==3) selected @endif>Dokter/Bidan/Perawat</option>
@@ -514,7 +514,7 @@
                                         <div class="row g-3 mb-3">
                                             <div class="col">
                                                 <select class="form-select @error('penghasilan_ayah') is-invalid @enderror" name="penghasilan_ayah">
-                                                    <option value="" selected>Penghasilan Ayah</option>
+                                                    <option hidden selected>Penghasilan Ayah</option>
                                                     <option value="1" @if (old('penghasilan_ayah')==1) selected @endif>
                                                         <= Rp. 500.000</option>
                                                     <option value="2" @if (old('penghasilan_ayah')==2) selected @endif>Rp. 500.000 - Rp. 1.000.000</option>
@@ -557,7 +557,7 @@
                                         <div class="row g-3 mb-3">
                                             <div class="col">
                                                 <select class="form-select @error('pekerjaan_ibu') is-invalid @enderror" name="pekerjaan_ibu">
-                                                    <option value="" selected>Pekerjaan Ibu</option>
+                                                    <option hidden selected>Pekerjaan Ibu</option>
                                                     <option value="1" @if (old('pekerjaan_ibu')==1) selected @endif>Tidak Bekerja</option>
                                                     <option value="2" @if (old('pekerjaan_ibu')==2) selected @endif>Buruh(Tani,Pabrik,Bangunan)</option>
                                                     <option value="3" @if (old('pekerjaan_ibu')==3) selected @endif>Dokter/Bidan/Perawat</option>

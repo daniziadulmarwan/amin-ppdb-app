@@ -8,8 +8,7 @@ use App\Models\Province;
 use App\Models\Village;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Storage;
-use Barryvdh\DomPDF\Facade\Pdf as PDF;
-use Illuminate\Support\Str;
+use Barryvdh\DomPDF\Facade\Pdf;
 
 class StudentController extends Controller
 {
@@ -191,5 +190,13 @@ class StudentController extends Controller
 
         $student->update($validated);
         return redirect('/admin/student')->with('success', 'Berhasil ubah data');
+    }
+
+    public function exportAllStudent()
+    {
+        $datas = Pendaftaran::all();
+        // dump($datas);
+        $pdf = Pdf::loadView('admin.student.table_pdf', ['datas' => $datas]);
+        return $pdf->stream();
     }
 }

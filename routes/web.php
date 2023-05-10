@@ -6,22 +6,8 @@ use App\Http\Controllers\Admin\StudentController;
 use App\Http\Controllers\AuthController;
 use App\Http\Controllers\PendaftaranController;
 use App\Models\Pendaftaran;
-use App\Models\SettingTime;
-use App\Models\User;
-use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Route;
 use Maatwebsite\Excel\Facades\Excel;
-
-/*
-|--------------------------------------------------------------------------
-| Web Routes
-|--------------------------------------------------------------------------
-|
-| Here is where you can register web routes for your application. These
-| routes are loaded by the RouteServiceProvider within a group which
-| contains the "web" middleware group. Now create something great!
-|
-*/
 
 Route::controller(PendaftaranController::class)->group(function () {
     route::get('/', 'index')->name('login');
@@ -59,6 +45,7 @@ Route::controller(StudentController::class)->middleware('auth')->group(function 
     route::get('/admin/student/{id}/edit', 'edit');
     route::put('/admin/student/{id}', 'update');
     route::delete('/admin/student/{id}', 'destroy');
+    route::get('/export-all-student', 'exportAllStudent');
 });
 
 Route::get('/admin/document', function () {

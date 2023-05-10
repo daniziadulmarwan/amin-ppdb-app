@@ -8,7 +8,7 @@
                 <div class="d-flex mb-4 gap-1">
                     <a href="/admin/excel" class="btn btn-success">Export Excel</a>
                     {{-- <a href="/admin/excel/emis" class="btn btn-info">Export Excel EMIS</a> --}}
-                    <a href="javascript:void(0)" class="btn btn-primary">Save To Pdf</a>
+                    <a target="_blank" href="/export-all-student" class="btn btn-primary">Save To Pdf</a>
                 </div>
 
                 <div class="table-responsive">
