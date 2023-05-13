@@ -49,7 +49,7 @@
                                         @endif
                                     </td>
                                     <td class="d-flex gap-1">
-                                        <a href="/admin/student/{{ $item->id }}" class="text-warning font-size-20"><i class='bx bx-file'></i></a>
+                                        <a target="_blank" href="/admin/student/{{ $item->id }}" class="text-warning font-size-20"><i class='bx bx-file'></i></a>
                                         <a href="/admin/student/{{ $item->id }}/edit" class="text-success font-size-20"><i class='bx bx-edit'></i></a>
                                         <form action="/admin/student/{{ $item->id }}" method="post">
                                             @csrf

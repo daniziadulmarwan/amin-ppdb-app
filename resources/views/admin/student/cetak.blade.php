@@ -124,7 +124,7 @@
                 <td>8.</th>
                 <td>Alamat Peserta Didik</td>
                 <td class="ps-3 pe-2">:</td>
-                <td>{{ Str::upper($data->address) }} RT {{ $data->rt }} RW {{ $data->rw }}, {{ $desa->name }}</td>
+                <td>{{ Str::upper($data->address) }} RT {{ $data->rt }} RW {{ $data->rw }}, {{ $desa?->name }}</td>
               </tr>
               <tr>
                 <td>9.</th>
