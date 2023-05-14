@@ -42,9 +42,9 @@ class StudentController extends Controller
     {
         $data = Pendaftaran::find($id);
         $desa = Village::find($data->village);
-        // $pdf = PDF::loadView('admin.student.print', compact('data', 'desa'))->setPaper('a4', 'portrait');
-        // return $pdf->stream();
-        return view('admin.student.cetak', compact('data', 'desa'));
+        $pdf = PDF::loadView('admin.student.print', compact('data', 'desa'))->setPaper('a4', 'portrait');
+        return $pdf->stream();
+        // return view('admin.student.cetak', compact('data', 'desa'));
     }
 
     public function status(Request $request)
